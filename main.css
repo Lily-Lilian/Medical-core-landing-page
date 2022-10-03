@@ -34,7 +34,7 @@ body{
     height: 100vh;
     padding: 0 130px;
 }
-.nav{
+.navbar{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -42,26 +42,26 @@ body{
     padding: 20px 0;
 }
 
-.nav__logo{
+.navbar__logo{
     font-size: 24px;
     font-weight: bold;
     margin-right: 20px;
 }
-.nav__leftside{
+.navbar__left-side{
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.nav__rightside{
+.navbar__right-side{
     display: flex;
     align-items: center;
     gap: 15px; 
 }
-.nav-lists{
+.navbar__lists{
     display: flex;
     gap: 25px;
 }
-.nav__item{
+.navbar__item{
     color: #737373;;
     font-weight: bold;
     font-size: 14px;
@@ -74,24 +74,24 @@ body{
     justify-content: center;
     gap: 15px;
 }
-.middle__sectiontitle{
+.middle__section-title{
     color:#1BA0AB ;
     font-size: 16px;
     line-height: 24px;
     font-weight: bold;
 }
-.middle__sectiondescr{
+.middle__section-description{
     font-size: 58px;
     font-weight: bold;
     max-width: 542px;
     color:  #252B42;
 }
-.middle__sectionsubt{
+.middle__section-subtitle{
     color:#737373;
     font-size: 20px;
     font-weight: 500;
 }
-.middle__sectionbtn{
+.middle__section-btn{
     display: flex;
     gap: 15px;
     margin-top: 15px;
@@ -106,10 +106,10 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.main__introimg{
+.main__intro-img{
     max-width: 75%;
 }
-.main__descr{
+.main__description{
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ body{
     font-size: 14px;
     font-weight: bold;
 }
-.team__bigtitle{
+.team__big-title{
     color: #252B42;
     font-size: 48px;
     font-weight: bold;
@@ -181,7 +181,7 @@ body{
     border-radius: 20px;
     overflow: hidden;
 }
-.team__containerimg{
+.team__container-img{
     width: 100%;
     height: 231px;
     overflow: hidden;
@@ -228,7 +228,7 @@ body{
     font-size: 14px;
     font-weight: bold;
 }
-.footer__bigtitle{
+.footer__big-title{
     color: #252B42;
     font-weight: bold;
     font-size: 40px;
@@ -241,7 +241,7 @@ body{
     color: var(--light);
     letter-spacing: 0.2px;
 }
-.footer__inputcont{
+.footer__input-container{
     margin-top: 60px;
     display: flex;
     justify-content: center;
